@@ -169,6 +169,8 @@ cc_library {
     visibility: [
         "//device/google/contexthub/util/nanoapp_postprocess",
         "//external/mesa3d",
+        "//external/bpftrace/bcc",
+        "//external/bpftrace/libbpf",
         "//external/perf_data_converter",
     ],
 }
